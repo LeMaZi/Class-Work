@@ -1,0 +1,14 @@
+.container {
+   display: inline-block;
+}
+.blue {
+   background-color:#2137FC;
+   width: 240px;
+}
+.yellow {
+   background-color: #FFCE22;
+   height: 240px;
+}
+.img {
+   text-align: center;
+}
