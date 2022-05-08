@@ -50,22 +50,29 @@ body {
 .main {
    padding: 0 80px;
 }
+
 .h1 {
    margin: 25px 0;
    font-size: 40px;
    font-weight: 700;
 }
+
 .line {
-   border-bottom:5px solid #3E45E8;
+   border-bottom: 5px solid #3E45E8;
    width: 402px;
 }
+
 .card {
    width: 30%;
    display: inline-block;
+   vertical-align: top;
+   color: #000000;
 }
 
 .card-margin {
-   margin: 0 4.5%;
+   margin:0 4.5%;
+   margin-left: 40px;
+   margin-right:40px ;
 }
 
 .card__img {
@@ -91,12 +98,6 @@ body {
    text-align: center;
 }
 
-.border-1 {
-   border: 5px solid #3E45E8;
-   width: 402px;
-   margin-left: 25px;
-   margin-top: 100px;
-}
 
 .border-2 {
    border: 5px solid #3E45E8;
