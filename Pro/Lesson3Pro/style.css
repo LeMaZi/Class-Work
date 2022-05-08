@@ -1,0 +1,115 @@
+body {
+   font-family: 'Inika', serif;
+}
+
+.header {
+   min-height: 110px;
+   background: white;
+}
+
+.mplus1 {
+   text-align: center;
+   font-family: 'M PLUS 1';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 70px;
+   letter-spacing: 0.1em;
+   color: #3E45E8;
+}
+
+.marcellus {
+   font-family: 'M PLUS 1', sans-serif;
+   color: #E8C23E;
+   text-align: center;
+}
+
+.baner {
+   background-image: url("./img/image1.png");
+   height: 803px;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   padding-top: 206px;
+   padding-left: 80px;
+   box-sizing: border-box;
+}
+
+.content {
+   background-image: url(./img/flag.png);
+   width: 60%;
+   height: 272px;
+   background-repeat: no-repeat;
+   color: #ffffff;
+   padding-left: 3%;
+   box-sizing: border-box;
+   font-family: 'Inika';
+   font-style: normal;
+   font-size: 48px;
+}
+
+.title {
+   font-family: 'Inika', serif;
+   margin-left: 32px;
+   font-size: 40px;
+   color: black;
+}
+
+.card {
+   width: 30%;
+   margin-left: 32px;
+   display: inline-block;
+}
+
+.card-title {
+   font-weight: 700;
+   font-size: 24px;
+   color: #1E8DF2;
+}
+
+.card__description {
+   font-weight: 400;
+   font-size: 20px;
+   color: #E8C23E;
+}
+
+.title2 {
+   font-weight: 700;
+   font-size: 40px;
+   color: #000000;
+   text-align: center;
+}
+
+.center-img {
+   display: block;
+   margin: 0% auto;
+}
+
+.btn1 {
+   text-align: center;
+}
+
+.btn {
+   display: inline-block;
+   border: 2px solid #2A61F0;
+   width: 591px;
+   height: 121px;
+   font-size: 64px;
+   text-align: center;
+   text-decoration: none;
+   background-color: #2A61F0;
+   font-family: 'Inika', serif;
+   color: #ffffff;
+}
+
+.lower {
+   min-height: 320px;
+   background-color: #2F4A4B;
+}
+
+.contact {
+   text-align: center;
+   color: #A89D9D;
+   font-family: 'Marcellus SC', serif;
+   font-weight: 400;
+   font-size: 36px;
+}
