@@ -36,7 +36,7 @@ body {
 
 .content {
    background-image: url(./img/flag.png);
-   width: 60%;
+   width: 75%;
    height: 272px;
    background-repeat: no-repeat;
    color: #ffffff;
@@ -47,17 +47,29 @@ body {
    font-size: 48px;
 }
 
-.title {
-   font-family: 'Inika', serif;
-   margin-left: 32px;
-   font-size: 40px;
-   color: black;
+.main {
+   padding: 0 80px;
 }
-
+.h1 {
+   margin: 25px 0;
+   font-size: 40px;
+   font-weight: 700;
+}
+.line {
+   border-bottom:5px solid #3E45E8;
+   width: 402px;
+}
 .card {
    width: 30%;
-   margin-left: 32px;
    display: inline-block;
+}
+
+.card-margin {
+   margin: 0 4.5%;
+}
+
+.card__img {
+   width: 100%;
 }
 
 .card-title {
@@ -77,6 +89,18 @@ body {
    font-size: 40px;
    color: #000000;
    text-align: center;
+}
+
+.border-1 {
+   border: 5px solid #3E45E8;
+   width: 402px;
+   margin-left: 25px;
+   margin-top: 100px;
+}
+
+.border-2 {
+   border: 5px solid #3E45E8;
+   width: 402px;
 }
 
 .center-img {
@@ -112,4 +136,8 @@ body {
    font-family: 'Marcellus SC', serif;
    font-weight: 400;
    font-size: 36px;
+}
+
+.box-emoji {
+   text-align: center;
 }
