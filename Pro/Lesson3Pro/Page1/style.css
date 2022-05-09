@@ -119,9 +119,9 @@ body {
    background-color: #2137FC;
    background-repeat: no-repeat;
    background-repeat: no-repeat;
-   display: block;
-   margin: 0 auto;
    border-radius: 444px 444px 0px 0px;
+   background-position-x: 111px;
+   background-position-y: 105px;
 }
 .yellowsquare2 {
    width: 512px;
@@ -129,7 +129,7 @@ body {
    background-image: url("./img/Group6.1.png");
    background-color: #FFCE22;
    background-repeat: no-repeat;
-   background-position-x: 50px;
-   background-position-y: -15px;
    border-radius: 0px 0px 444px 444px;
+   background-position-x: 111px;
+   background-position-y: -155px;
 }
