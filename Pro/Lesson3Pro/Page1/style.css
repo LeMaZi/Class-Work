@@ -231,35 +231,27 @@ body {
    background-color: black;
    width: 512px;
    height: 512px;
-   background-image: url("./img/diya1.png");
+   background-image: url("./img/diya1.png"), url("./img/diyaFlag.png");
    background-repeat: no-repeat;
-   background-position-x: 95px;
-   background-position-y: 140px;
+   background-position: center, bottom;
 }
 
 .black-diya4 {
    background-color: black;
    width: 512px;
    height: 512px;
-   background-image: url("./img/diya1.png");
+   background-image: url("./img/diya1.png"), url("./img/diyaFlag.png");
    background-repeat: no-repeat;
-   background-position-x: 95px;
-   background-position-y: 140px;
+   background-position: center,left;
 }
 
 .black-diya5 {
    background-color: black;
    width: 512px;
    height: 512px;
-   background-image: url("./img/diya1.png");
+   background-image: url("./img/diya1.png"), url("./img/diyaFlag.png"), url("./img/diyaFlag.png");
    background-repeat: no-repeat;
-   background-position-x: 95px;
-   background-position-y: 140px;
+   background-position:center, left, right;
 }
 
-.flag-5 {
-   width: 80px;
-   Height: 60px;
-   background-image: url("./img/diyaFlag.png");
-   background-repeat: no-repeat;
-}
+
