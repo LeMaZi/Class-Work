@@ -34,7 +34,7 @@ body {
    background-position-y: -118px;
 }
 
-.blue2 {
+.blue-2 {
    width: 512px;
    height: 256px;
    background-color: #2137FC;
@@ -45,7 +45,7 @@ body {
    border-radius: 444px 444px 0px 0px;
 }
 
-.yellow2 {
+.yellow-2 {
    width: 512px;
    height: 256px;
    background-color: #FFCE22;
@@ -56,7 +56,7 @@ body {
    border-radius: 0px 0px 444px 444px;
 }
 /* Друга колонка! */
-.blueflag {
+.blue-flag {
    width: 512px;
    height: 256px;
    background-color: #2137FC;
@@ -65,7 +65,7 @@ body {
    background-position-y: 140px;
 }
 
-.yellowflag {
+.yellow-flag {
    width: 512px;
    height: 256px;
    background-color: #FFCE22;
@@ -74,7 +74,7 @@ body {
    background-position-y: -118px;
 }
 
-.blueflag2 {
+.blue-flag2 {
    width: 512px;
    height: 256px;
    background-color: #2137FC;
@@ -84,7 +84,7 @@ body {
    border-radius: 444px 444px 0px 0px;
 }
 
-.yellowflag2 {
+.yellow-flag2 {
    width: 512px;
    height: 256px;
    background-color: #FFCE22;
@@ -94,7 +94,7 @@ body {
    border-radius: 0px 0px 444px 444px;
 }
 /* Третя колонка! */
-.bluesquare {
+.blue-square {
    width: 512px;
    height: 256px;
    background-image: url("./img/Group6.png");
@@ -103,7 +103,7 @@ body {
    background-position-x: 0px;
    background-position-y: 92px;
 }
-.yellowsquare {
+.yellow-square {
    width: 512px;
    height: 256px;
    background-image: url("./img/Group6.png");
@@ -112,7 +112,7 @@ body {
    background-position-x: 0px;
    background-position-y: -170px;
 }
-.bluesquare2 {
+.blue-square2 {
    width: 512px;
    height: 256px;
    background-image: url("./img/Group6.1.png");
@@ -123,7 +123,7 @@ body {
    background-position-x: 111px;
    background-position-y: 105px;
 }
-.yellowsquare2 {
+.yellow-square2 {
    width: 512px;
    height: 256px;
    background-image: url("./img/Group6.1.png");
@@ -132,4 +132,43 @@ body {
    border-radius: 0px 0px 444px 444px;
    background-position-x: 111px;
    background-position-y: -155px;
+}
+/* Четверта колонка! */
+.blue-plane {
+   width: 512px;
+   height: 256px;
+   background-image: url("./img/Plane1.png");
+   background-color: #2137FC;
+   background-repeat: no-repeat;
+   background-position-x: 160px;
+   background-position-y: 120px;
+}
+.yellow-plane {
+   width: 512px;
+   height: 256px;
+   background-image: url("./img/Plane1.png");
+   background-color: #FFCE22;
+   background-repeat: no-repeat;
+   background-position-x: 160px;
+   background-position-y: -135px;
+}
+.blue-plane2 {
+   width: 512px;
+   height: 256px;
+   background-image: url("./img/Plane2.png");
+   background-color: #2137FC;
+   background-repeat: no-repeat;
+   background-position-x: 118px;
+   background-position-y: 105px;
+   border-radius: 444px 444px 0px 0px;
+}
+.yellow-plane2 {
+   width: 512px;
+   height: 256px;
+   background-image: url("./img/Plane2.png");
+   background-color: #FFCE22;
+   background-repeat: no-repeat;
+   background-position-x: 118px;
+   background-position-y: -150px;
+   border-radius: 0px 0px 444px 444px;
 }
