@@ -10,9 +10,9 @@ body {
    background-color: white;
    box-sizing: border-box;
    margin-left: 4%;
-   box-sizing: border-box;
+   margin-top: 4%
 }
-
+/* Перша колонка! */
 .blue {
    width: 512px;
    height: 256px;
@@ -21,7 +21,7 @@ body {
    background-repeat: no-repeat;
    background-position-x: 50px;
    background-position-y: 140px;
-   
+
 }
 
 .yellow {
@@ -55,3 +55,42 @@ body {
    background-position-y: -15px;
    border-radius: 0px 0px 444px 444px;
 }
+/* Друга колонка! */
+.blueflag {
+   width: 512px;
+   height: 256px;
+   background-color: #2137FC;
+   background-repeat: no-repeat;
+   background-position-x: 50px;
+   background-position-y: 140px;
+}
+
+.yellowflag {
+   width: 512px;
+   height: 256px;
+   background-color: #FFCE22;
+   background-repeat: no-repeat;
+   background-position-x: 50px;
+   background-position-y: -118px;
+}
+
+.blueflag2 {
+   width: 512px;
+   height: 256px;
+   background-color: #2137FC;
+   background-repeat: no-repeat;
+   background-position-x: 50px;
+   background-position-y: 240px;
+   border-radius: 444px 444px 0px 0px;
+}
+
+.yellowflag2 {
+   width: 512px;
+   height: 256px;
+   background-color: #FFCE22;
+   background-repeat: no-repeat;
+   background-position-x: 50px;
+   background-position-y: -15px;
+   border-radius: 0px 0px 444px 444px;
+}
+/* Третя колонка! */
