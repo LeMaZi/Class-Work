@@ -10,8 +10,9 @@ body {
    background-color: white;
    box-sizing: border-box;
    margin-left: 4%;
-   margin-top: 4%
+   margin-top: 4%;
 }
+
 /* Перша колонка! */
 .blue {
    width: 512px;
@@ -55,6 +56,7 @@ body {
    background-position-y: -15px;
    border-radius: 0px 0px 444px 444px;
 }
+
 /* Друга колонка! */
 .blue-flag {
    width: 512px;
@@ -93,6 +95,7 @@ body {
    background-position-y: -15px;
    border-radius: 0px 0px 444px 444px;
 }
+
 /* Третя колонка! */
 .blue-square {
    width: 512px;
@@ -101,8 +104,9 @@ body {
    background-color: #2137FC;
    background-repeat: no-repeat;
    background-position-x: 0px;
-   background-position-y: 92px;
+   background-position-y: 85px;
 }
+
 .yellow-square {
    width: 512px;
    height: 256px;
@@ -112,6 +116,7 @@ body {
    background-position-x: 0px;
    background-position-y: -170px;
 }
+
 .blue-square2 {
    width: 512px;
    height: 256px;
@@ -123,6 +128,7 @@ body {
    background-position-x: 111px;
    background-position-y: 105px;
 }
+
 .yellow-square2 {
    width: 512px;
    height: 256px;
@@ -133,6 +139,7 @@ body {
    background-position-x: 111px;
    background-position-y: -155px;
 }
+
 /* Четверта колонка! */
 .blue-plane {
    width: 512px;
@@ -143,6 +150,7 @@ body {
    background-position-x: 160px;
    background-position-y: 120px;
 }
+
 .yellow-plane {
    width: 512px;
    height: 256px;
@@ -152,6 +160,7 @@ body {
    background-position-x: 160px;
    background-position-y: -135px;
 }
+
 .blue-plane2 {
    width: 512px;
    height: 256px;
@@ -162,6 +171,7 @@ body {
    background-position-y: 105px;
    border-radius: 444px 444px 0px 0px;
 }
+
 .yellow-plane2 {
    width: 512px;
    height: 256px;
@@ -171,4 +181,85 @@ body {
    background-position-x: 118px;
    background-position-y: -150px;
    border-radius: 0px 0px 444px 444px;
+}
+
+/* П'ята колонка! */
+.blue-diya {
+   width: 512px;
+   height: 256px;
+   background-color: #2137FC;
+   background-image: url("./img/diya1.png");
+   background-repeat: no-repeat;
+   background-position-x: 95px;
+   background-position-y: 140px;
+
+}
+
+.yellow-diya {
+   width: 512px;
+   height: 256px;
+   background-color: #FFCE22;
+   background-image: url("./img/diya1.png");
+   background-repeat: no-repeat;
+   background-position-x: 95px;
+   background-position-y: -118px;
+}
+
+.blue-diya2 {
+   width: 512px;
+   height: 256px;
+   background-color: #2137FC;
+   background-image: url("./img/diya1.png");
+   background-repeat: no-repeat;
+   background-position-x: 95px;
+   background-position-y: 140px;
+   border-radius: 444px 444px 0px 0px;
+}
+
+.yellow-diya2 {
+   width: 512px;
+   height: 256px;
+   background-color: #FFCE22;
+   background-image: url("./img/diya1.png");
+   background-repeat: no-repeat;
+   background-position-x: 95px;
+   background-position-y: -118px;
+   border-radius: 0px 0px 444px 444px;
+}
+
+.black-diya3 {
+   background-color: black;
+   width: 512px;
+   height: 512px;
+   background-image: url("./img/diya1.png");
+   background-repeat: no-repeat;
+   background-position-x: 95px;
+   background-position-y: 140px;
+}
+
+.black-diya4 {
+   background-color: black;
+   width: 512px;
+   height: 512px;
+   background-image: url("./img/diya1.png");
+   background-repeat: no-repeat;
+   background-position-x: 95px;
+   background-position-y: 140px;
+}
+
+.black-diya5 {
+   background-color: black;
+   width: 512px;
+   height: 512px;
+   background-image: url("./img/diya1.png");
+   background-repeat: no-repeat;
+   background-position-x: 95px;
+   background-position-y: 140px;
+}
+
+.flag-5 {
+   width: 80px;
+   Height: 60px;
+   background-image: url("./img/diyaFlag.png");
+   background-repeat: no-repeat;
 }
