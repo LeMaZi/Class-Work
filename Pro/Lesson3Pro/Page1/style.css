@@ -1,9 +1,16 @@
 body {
    background-color: #E5E5E5;
 }
+
 .figure {
    display: inline-block;
-   width: 50%;
+   border: solid white;
+   width: 512px;
+   height: 512px;
+   background-color: white;
+   box-sizing: border-box;
+   margin-left: 4%;
+   box-sizing: border-box;
 }
 
 .blue {
@@ -14,7 +21,7 @@ body {
    background-repeat: no-repeat;
    background-position-x: 50px;
    background-position-y: 140px;
-   box-sizing: border-box;
+   
 }
 
 .yellow {
@@ -25,7 +32,6 @@ body {
    background-repeat: no-repeat;
    background-position-x: 50px;
    background-position-y: -118px;
-   box-sizing: border-box;
 }
 
 .blue2 {
@@ -36,7 +42,6 @@ body {
    background-repeat: no-repeat;
    background-position-x: 50px;
    background-position-y: 240px;
-   box-sizing: border-box;
    border-radius: 444px 444px 0px 0px;
 }
 
@@ -48,6 +53,5 @@ body {
    background-repeat: no-repeat;
    background-position-x: 50px;
    background-position-y: -15px;
-   box-sizing: border-box;
    border-radius: 0px 0px 444px 444px;
 }
