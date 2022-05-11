@@ -1,0 +1,41 @@
+body {
+   width: auto;
+   background-color: #E5E5E5;
+   font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper {}
+
+.menu-list {
+   /*убираем маркеры списка*/
+   list-style: none;
+
+}
+
+.btn {
+   /*убираем подчеркивание текста ссылок*/
+   text-decoration: none;
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   color: #FFFFFF;
+}
+
+.h1 {
+   background-color: #C6C6DC;
+   height: 140px;
+
+}
+
+.text {
+   display: inline-block;
+   font-family: 'PT Sans';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 48px;
+   color: #202846;
+   margin-left: 227px;
+   margin-bottom: 39px;
+   margin-top: 39px;
+}
