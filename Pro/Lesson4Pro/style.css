@@ -1,25 +1,55 @@
 body {
-   width: auto;
    background-color: #E5E5E5;
    font-family: 'PT Sans', sans-serif;
 }
 
-.wrapper {}
+.wrapper {
+   background-color: #202846;
+
+}
+
+.header {
+   display: inline;
+}
+
+.header-container {
+   height: 90px;
+}
+
+.header-logo {
+   display: inline-block;
+   margin-left: 138px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.header-logo2 {
+   display: inline-block;
+   margin-left: 67px;
+}
 
 .menu-list {
-   /*убираем маркеры списка*/
+   /*Прибираємо маркери списку*/
    list-style: none;
 
 }
 
+.menu-item {
+   display: inline;
+   margin-top: 30px;
+
+}
+
 .btn {
-   /*убираем подчеркивание текста ссылок*/
+   /*Прибираємо підкреслення*/
    text-decoration: none;
+   /* Задаємо розміри шрифту */
    font-family: 'PT Sans';
    font-style: normal;
    font-weight: 700;
    font-size: 24px;
    color: #FFFFFF;
+
 }
 
 .h1 {
