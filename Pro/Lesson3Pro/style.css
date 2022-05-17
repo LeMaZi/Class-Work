@@ -1,5 +1,6 @@
 body {
    font-family: 'Inika', serif;
+   margin: 0;
 }
 
 .header {
@@ -31,12 +32,11 @@ body {
    background-size: 100%;
    padding-top: 206px;
    padding-left: 80px;
-   box-sizing: border-box;
 }
 
 .content {
    background-image: url(./img/flag.png);
-   width: 75%;
+   width: 80%;
    height: 272px;
    background-repeat: no-repeat;
    color: #ffffff;
@@ -49,46 +49,53 @@ body {
 
 .main {
    padding: 0 80px;
+
+
 }
 
 .h1 {
-   margin: 25px 0;
+   box-sizing: border-box;
+   padding-top: 72px;
+   padding-bottom: 25px;
    font-size: 40px;
    font-weight: 700;
+
 }
 
 .line {
+   box-sizing: border-box;
+   margin-top: 33px;
    border-bottom: 5px solid #3E45E8;
+   background-color: #3E45E8;
    width: 402px;
 }
 
 .card {
+   display: inline-block;
    width: 30%;
    background: #FFFFFF;
    box-shadow: 0px 4px 57px 3px rgba(0, 0, 0, 0.25);
    border-radius: 30px;
-   display: inline-block;
-   vertical-align: top;
-   width: 360px;
-   height: 430px;
+   height: 50%;
+   box-sizing: border-box;
 }
 
 .card-margin {
-   margin: 0 4.5%;
-   margin-left: 40px;
-   margin-right: 40px;
+   margin: 0 3.5%;
 }
 
 .card__img {
    width: 100%;
+
 }
 
-.card-title {
+.card-title a {
    font-weight: 700;
    font-size: 24px;
    color: #1E8DF2;
    padding: 10px;
    box-sizing: border-box;
+   text-decoration: none;
 }
 
 .card__description {
@@ -111,13 +118,20 @@ body {
 
 .border-2 {
    border: 5px solid #3E45E8;
+   background-color: #3E45E8;
    width: 402px;
 }
 
 .center-img {
-   padding-top: 41px;
    display: block;
-   margin: 0% auto;
+   margin-left: auto;
+   margin-right: auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 41px;
+   width: 812px;
+   box-sizing: border-box;
+
 }
 
 .btn1 {
