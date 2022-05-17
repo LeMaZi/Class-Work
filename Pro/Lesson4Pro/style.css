@@ -177,7 +177,10 @@ svg path {
    color: #202846;
 
 }
-
+.scrollup {
+   position: fixed;
+   left: 90%;
+}
 .footer {
    display: flex;
    align-items: center;
