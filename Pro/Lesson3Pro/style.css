@@ -32,6 +32,7 @@ body {
    background-size: 100%;
    padding-top: 206px;
    padding-left: 80px;
+   box-sizing: border-box;
 }
 
 .content {
@@ -54,8 +55,6 @@ body {
 }
 
 .h1 {
-   box-sizing: border-box;
-   padding-top: 72px;
    padding-bottom: 25px;
    font-size: 40px;
    font-weight: 700;
