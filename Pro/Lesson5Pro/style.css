@@ -100,3 +100,27 @@ a.color-text:hover {
 img {
    padding-top: 22px;
 }
+.box-menu {
+   display: flex;
+   justify-content: center;
+   text-align:center;
+   padding-top: 136.27px;
+   
+   
+}
+.menu {
+   display: flex;
+   
+}
+.menu-item>a {
+   display: flex;
+   
+   text-decoration: none;
+   padding: 25px 30px;
+   color: #FFFFFF;
+}
+
+.span-color {
+   color: #FFB742;
+
+}

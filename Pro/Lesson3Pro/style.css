@@ -151,18 +151,25 @@ body {
 }
 
 .lower {
+   text-align: center;
    min-height: 320px;
    background-color: #2F4A4B;
 }
-
+a {
+   text-align: center;
+   text-decoration: none;
+}
 .contact {
+display: inline-block;
    text-align: center;
    color: #A89D9D;
    font-family: 'Marcellus SC', serif;
    font-weight: 400;
    font-size: 36px;
+   padding-top: 20px;
 }
 
 .box-emoji {
+   padding-top: 20px;
    text-align: center;
 }
