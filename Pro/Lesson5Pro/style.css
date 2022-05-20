@@ -100,27 +100,40 @@ a.color-text:hover {
 img {
    padding-top: 22px;
 }
+
 .box-menu {
    display: flex;
    justify-content: center;
-   text-align:center;
    padding-top: 136.27px;
    
-   
-}
-.menu {
-   display: flex;
-   
-}
-.menu-item>a {
-   display: flex;
-   
-   text-decoration: none;
-   padding: 25px 30px;
-   color: #FFFFFF;
+
+
 }
 
-.span-color {
+.menu-item {
+   display: flex;
+   width: 27%;
+   height: 120px;
+   background: rgba(56, 62, 69, 0.44);
+   border-radius: 10px;
+   justify-content: center;
+   text-decoration: none;
+   color: #FFFFFF;
+   margin: 24px;
+   box-sizing: border-box;
+}
+
+.menu {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   color: #FFFFFF;
+
+
+}
+
+.color-number {
    color: #FFB742;
 
 }
