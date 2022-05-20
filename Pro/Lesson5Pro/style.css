@@ -58,12 +58,12 @@ li.nav-item>a:hover {
    display: flex;
    text-align: center;
    justify-content: center;
+   padding-top: 108px;
 }
 
 .box {
    color: #FFFFFF;
    font-family: 'Inter';
-   font-style: normal;
 }
 
 .text1 {
@@ -71,14 +71,18 @@ li.nav-item>a:hover {
    font-style: normal;
    font-weight: 700;
    font-size: 32px;
+
 }
+
 a.color-text {
    color: #FFFFFF;
 }
+
 a.color-text:hover {
    color: #FFB742;
 }
-text2 {
+
+.text2 {
    font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
@@ -90,4 +94,9 @@ text2 {
    font-style: normal;
    font-weight: 400;
    font-size: 24px;
+   padding-top: 25px;
+}
+
+img {
+   padding-top: 22px;
 }
