@@ -12,6 +12,7 @@ ul {
    padding-left: 50px;
    padding-right: 50px;
 
+
 }
 
 li.nav-item>a,
@@ -75,11 +76,11 @@ li.nav-item>a:hover {
 }
 
 a.color-text {
-   color: #FFFFFF;
-}
-
-a.color-text:hover {
    color: #FFB742;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
 }
 
 .text2 {
@@ -105,9 +106,14 @@ img {
    display: flex;
    justify-content: center;
    padding-top: 136.27px;
-   
+   box-sizing: border-box;
 
+}
 
+.menu-item:hover {
+   background-color:
+      #FFB742;
+   text-decoration-color: black;
 }
 
 .menu-item {
@@ -116,11 +122,13 @@ img {
    height: 120px;
    background: rgba(56, 62, 69, 0.44);
    border-radius: 10px;
-   justify-content: center;
+   justify-content: space-around;
    text-decoration: none;
    color: #FFFFFF;
    margin: 24px;
+   padding-bottom: 20px;
    box-sizing: border-box;
+
 }
 
 .menu {
@@ -129,6 +137,8 @@ img {
    text-align: center;
    justify-content: center;
    color: #FFFFFF;
+   box-sizing: border-box;
+   padding-right: 4px;
 
 
 }
@@ -136,4 +146,20 @@ img {
 .color-number {
    color: #FFB742;
 
+}
+
+.color-number {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   color: black;
+}
+
+.color-text {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   color: black;
 }
