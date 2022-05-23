@@ -258,9 +258,9 @@ img {
    color: #FFFFFF;
 }
 
-.nav a,
+.nav-menu a,
 li {
-  color: #FFB742;
+   color: #FFB742;
    text-decoration: none;
    list-style: none;
    font-family: 'Poppins';
@@ -269,17 +269,33 @@ li {
    font-size: 16px;
    color: #FFFFFF;
 }
-.nav {
+
+.nav-menu {
    display: flex;
    text-align: center;
-   justify-items: center;
+   justify-content: space-around;
    margin-top: 30px;
    border-radius: 3px;
-   color: #FFB742
+   color: #FFB742;
 }
+
+ul.mobile {
+   display: flex;
+   justify-content: center;
+ 
+
+}
+
+li.mobile-menu {
+   padding: 5px 20px;
+   height: 40px;
+   box-sizing: border-box;
+}
+
 .mobile-menu:hover a {
- background-color: #FFB742;
+   background-color: #FFB742;
 }
+
 .mobile-menu:hover a {
    color: black;
 }
