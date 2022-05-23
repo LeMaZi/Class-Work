@@ -174,12 +174,18 @@ img {
 .box-about {
    display: flex;
    justify-content: center;
+   margin-top: 137px;
 }
-
+.img-box {
+   margin-right: 40px;
+}
 .box-content {
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   
 }
+
 .title {
    font-family: 'Poppins';
    font-style: normal;
@@ -195,6 +201,7 @@ img {
    font-weight: 700;
    font-size: 48px;
    color: #FFFFFF;
+   padding-top: 10px;
 }
 
 .text {
@@ -203,11 +210,14 @@ img {
    font-weight: 400;
    font-size: 16px;
    color: #D5D5D5;
+   padding-top: 29.49px;
+   max-width: 600px;
 }
 
 .button a {
    display: flex;
    align-items: center;
+   justify-content: center;
    text-decoration: none;
    background: #FFB742;
    border: 2px solid #FFB742;
@@ -217,5 +227,7 @@ img {
    font-style: normal;
    font-weight: 700;
    font-size: 18px;
+   width: 147.57px;
    height: 54px;
+   margin-top: 54.45px;
 }
