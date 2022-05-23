@@ -38,6 +38,7 @@ li.nav-item>a,
 
 li.nav-item>a:hover {
    color: #FFB742;
+
 }
 
 .btn {
@@ -111,9 +112,11 @@ img {
 }
 
 .menu-item:hover {
-   background-color:
-      #FFB742;
-   text-decoration-color: black;
+   background-color: #FFB742;
+}
+
+.menu-item:hover div {
+   color: black;
 }
 
 .menu-item {
@@ -124,10 +127,10 @@ img {
    border-radius: 10px;
    justify-content: space-around;
    text-decoration: none;
-   color: #FFFFFF;
    margin: 24px;
    padding-bottom: 20px;
    box-sizing: border-box;
+
 
 }
 
@@ -136,15 +139,10 @@ img {
    flex-direction: column;
    text-align: center;
    justify-content: center;
-   color: #FFFFFF;
    box-sizing: border-box;
    padding-right: 4px;
 
 
-}
-
-.color-number {
-   color: #FFB742;
 
 }
 
@@ -153,7 +151,8 @@ img {
    font-style: normal;
    font-weight: 700;
    font-size: 32px;
-   color: black;
+   color: #FFB742;
+
 }
 
 .color-text {
@@ -161,5 +160,62 @@ img {
    font-style: normal;
    font-weight: 700;
    font-size: 16px;
-   color: black;
+   color: #FFFFFF;
+
+}
+
+.arrow {
+   display: flex;
+   align-self: center;
+   text-align: center;
+   justify-self: center;
+}
+
+.box-about {
+   display: flex;
+   justify-content: center;
+}
+
+.box-content {
+   display: flex;
+   flex-direction: column;
+}
+.title {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   text-transform: uppercase;
+   color: #FFB742;
+}
+
+.about-me {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   color: #FFFFFF;
+}
+
+.text {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color: #D5D5D5;
+}
+
+.button a {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   background: #FFB742;
+   border: 2px solid #FFB742;
+   border-radius: 50px;
+   color: #212529;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   height: 54px;
 }
