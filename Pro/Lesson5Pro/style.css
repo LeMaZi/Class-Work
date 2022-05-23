@@ -342,6 +342,7 @@ li.mobile-menu {
    text-align: start;
    margin: 0% auto;
    box-sizing: border-box;
+   height: 228.78px;
 
 }
 
@@ -363,7 +364,6 @@ li.mobile-menu {
 }
 
 .nav-footer {
-
 }
 
 .text-footer {
@@ -397,4 +397,7 @@ li.mobile-menu {
 }
 .footer-email {
    max-width: 319px;
+}
+.the-end {
+   margin-top: 1481px;
 }
