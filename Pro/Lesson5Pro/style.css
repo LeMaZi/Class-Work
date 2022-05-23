@@ -303,3 +303,19 @@ li.mobile-menu {
 .mobile-menu a {
    padding: 10px 24px
 }
+
+.box-img {
+   text-align: center;
+}
+
+.menu-img {
+   padding: 25px;
+   width: 390px;
+   height: 495.41px;
+}
+
+.menu-img1 {
+   padding: 25px;
+   width: 390.24px;
+   height: 292.68px;
+}
