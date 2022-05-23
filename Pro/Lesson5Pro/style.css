@@ -282,7 +282,6 @@ li {
 ul.mobile {
    display: flex;
    justify-content: center;
- 
 
 }
 
@@ -290,12 +289,17 @@ li.mobile-menu {
    padding: 5px 20px;
    height: 40px;
    box-sizing: border-box;
+   background: #212529;
+   border-radius: 3px;
+   margin-right: 24px;
+
 }
 
 .mobile-menu:hover a {
    background-color: #FFB742;
+   color: black;
 }
 
-.mobile-menu:hover a {
-   color: black;
+.mobile-menu a {
+   padding: 10px 24px
 }
