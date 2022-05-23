@@ -176,23 +176,32 @@ img {
    justify-content: center;
    margin-top: 137px;
 }
+
 .img-box {
    margin-right: 40px;
 }
+
 .box-content {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   
+
 }
 
 .title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    font-family: 'Poppins';
    font-style: normal;
    font-weight: 600;
    font-size: 20px;
    text-transform: uppercase;
    color: #FFB742;
+   width: 148px;
+   height: 42px;
+   background: rgba(255, 255, 255, 0.08);
+   border-radius: 50px;
 }
 
 .about-me {
@@ -230,4 +239,47 @@ img {
    width: 147.57px;
    height: 54px;
    margin-top: 54.45px;
+}
+
+.box-myworks {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 64px;
+}
+
+.my-title {
+   display: flex;
+   justify-content: center;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   color: #FFFFFF;
+}
+
+.nav a,
+li {
+  color: #FFB742;
+   text-decoration: none;
+   list-style: none;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   color: #FFFFFF;
+}
+.nav {
+   display: flex;
+   text-align: center;
+   justify-items: center;
+   margin-top: 30px;
+   border-radius: 3px;
+   color: #FFB742
+}
+.mobile-menu:hover a {
+ background-color: #FFB742;
+}
+.mobile-menu:hover a {
+   color: black;
 }
