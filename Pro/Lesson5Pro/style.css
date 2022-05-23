@@ -363,9 +363,6 @@ li.mobile-menu {
    max-width: 283px;
 }
 
-.nav-footer {
-}
-
 .text-footer {
    font-family: 'Work Sans';
    font-style: normal;
@@ -397,6 +394,7 @@ li.mobile-menu {
 }
 .footer-email {
    max-width: 319px;
+   background-color: #1C1C1C;
 }
 .the-end {
    margin-top: 1481px;
