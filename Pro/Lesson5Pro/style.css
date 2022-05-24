@@ -35,7 +35,9 @@ li.nav-item>a,
    font-size: 18px;
 
 }
-
+.nav-item>a:active {
+   font-size: 30px;
+}
 li.nav-item>a:hover {
    color: #FFB742;
 
@@ -383,6 +385,9 @@ li.mobile-menu {
    font-style: normal;
    font-weight: 500;
    font-size: 17.9888px;
+}
+.footer-contact>a:active {
+   color: #FFB742;
 }
 .footer-email a{
    text-decoration: none;
