@@ -14,6 +14,16 @@ body {
 
 }
 
+/* info-box-left */
+
+.content {
+   display: flex;
+   flex-direction: column;
+   width: 460px;
+   margin-top: 32px;
+
+}
+
 .text {
    font-family: 'Public Sans';
    font-style: normal;
@@ -58,13 +68,6 @@ body {
    margin-top: 22px;
 }
 
-.content {
-   display: flex;
-   flex-direction: column;
-   width: 460px;
-   margin-top: 32px;
-
-}
 
 #select {
    border: 1px solid #ADADAD;
@@ -138,6 +141,8 @@ body {
    margin-bottom: 166px;
 }
 
+/* info-box-right */
+
 .content-2 {
    display: flex;
    flex-direction: column;
@@ -200,7 +205,7 @@ body {
    font-size: 16px;
    color: #171717;
    margin-left: 43px;
-   margin-top: 95px;
+   margin-top: 90px;
 }
 
 .text-form7 {
@@ -210,7 +215,7 @@ body {
    font-size: 16px;
    color: #171717;
    margin-left: 43px;
-   margin-top: 22px;
+   margin-top: 23px;
 
 }
 
@@ -235,7 +240,22 @@ body {
    border-radius: 4px;
    margin-top: 50px;
    margin-left: 87%;
-   
+
+}
+
+#lupa {
+   background-image: url(./img/vector2.svg);
+   background-repeat: no-repeat;
+   background-position: right 5px center;
+   border: 1px solid #ADADAD;
+   border-radius: 4px;
+   height: 40px;
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   margin-top: 5px;
+   margin-left: 47px;
 }
 
 .btn {
