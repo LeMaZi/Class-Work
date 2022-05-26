@@ -1,3 +1,126 @@
 body {
-   
+   font-family: 'Public Sans', sans-serif;
+}
+
+.box {
+   display: flex;
+   flex-direction: row;
+   max-width: 1000px;
+   min-width: 700px;
+   margin: 0% auto;
+   background-color: #E5E5E5;
+   ;
+
+
+}
+
+.text {
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   color: #171717;
+   margin-top: 64px;
+   margin-left: 48px;
+}
+
+.red {
+   color: #D83933;
+}
+
+.text2 {
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   margin-top: 79px;
+   margin-left: 43px;
+}
+
+.text3 {
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   color: #171717;
+   margin-top: 24px;
+   margin-left: 43px;
+
+}
+
+.text-form {
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   color: #171717;
+   margin-left: 43px;
+   margin-top: 22px;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   width: 392px;
+   margin-top: 32px;
+
+}
+
+#select {
+   background-image: url("./img/vector.svg");
+   background-repeat: no-repeat;
+   border: 1px solid #ADADAD;
+   border-radius: 4px;
+   height: 40px;
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   margin-top: 8px;
+   margin-left: 43px;
+}
+
+#select-1 {
+   background-image: url("./img/vector.svg");
+   background-repeat: no-repeat;
+   border: 1px solid #ADADAD;
+   border-radius: 4px;
+   height: 40px;
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   margin-top: 8px;
+   margin-left: 43px;
+   color: #0050D8;
+}
+
+.box-check {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 27px;
+   margin-left: 43px;
+   box-sizing: border-box;
+
+}
+
+#checkbox {
+   width: 24px;
+   height: 24px;
+}
+
+.checkbox,
+#checkbox {
+
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   padding: 0px 8px;
+}
+
+.content-2 {
+   display: flex;
+   flex-direction: column;
 }

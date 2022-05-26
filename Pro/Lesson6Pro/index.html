@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="./style.css">
    <title>Lesson6</title>
 </head>
+
 <body>
-   
+   <section class="box">
+      <form class="content">
+         <div class="text">Intake Main Flow</div>
+         <div class="text2"><span class="red">*</span> Mandatory field</div>
+         <div class="text3">Information</div>
+         <label class="text-form" for="select">Intake Type<span class="red">* (select)</span></label>
+         <select name="referal" id="select">
+            <option value="1">Referral-1</option>
+            <option value="2">Referral-2</option>
+            <option value="3">Referral-3</option>
+            <option value="4">Referral-4</option>
+            <option value="5">Referral-5</option>
+         </select>
+         <label class="text-form" for="tel">phone</label>
+         <input type="tel" id="select" required placeholder="+380">
+         <label class="text-form" for="select">email</label>
+         <input type="email" id="select" placeholder="електронна адреса">
+         <label class="text-form" for="select-1">Application Registration (Optional)</label>
+         <select name="referal" id="select-1">
+            <option value="1">APP0000116</option>
+            <option value="2">APP0000117</option>
+            <option value="3">APP0000118</option>
+         </select>
+         <label class="text-form" for="data">Additional Information Requested Date (Optional)</label>
+         <input type="date" id="select">
+         <div class="box-check">
+            <input type="checkbox" id="checkbox">
+            <label class="checkbox" for="checkbox">Application Fee Processed</label>
+         </div>
+        </form>
+        <form class="content-2">
+           <div class="text">text</div>
+           
+        </form>
+   </section>
 </body>
+
 </html>
