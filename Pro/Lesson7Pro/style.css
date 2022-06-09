@@ -3,7 +3,7 @@ body {
    width: 100%;
    margin: 0% auto;
    font-family: 'Rosario', sans-serif;
-  
+
 }
 
 .header-box,
@@ -19,11 +19,11 @@ li>a {
    justify-content: space-between;
    align-items: center;
    position: sticky;
-   top: 0%;  
-   
+   top: 0%;
+
 }
 
-.Logo {
+.logo {
    display: flex;
    width: 10.5rem;
 }
@@ -39,7 +39,7 @@ li>a {
    font-weight: 700;
    font-size: 1.6rem;
    color: #FFFCFC;
-   padding:  20px;
+   padding: 20px;
 }
 
 .header-box {
@@ -47,7 +47,81 @@ li>a {
    flex-direction: row;
 
 }
+
 .box-img {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   overflow: auto;
    margin-top: 71px;
 }
-.left {}
+
+.foto img {
+   padding-bottom: 5%;
+}
+
+.left {
+   padding: 1.5%;
+   position: relative;
+   animation: left 2s linear;
+
+}
+
+.right {
+   padding: 1.5%;
+   position: relative;
+   animation: right 2s linear;
+
+}
+
+.left-center {
+   padding: 1%;
+   position: relative;
+   animation: left-center 1s linear;
+}
+
+.right-center {
+   position: relative;
+   animation: right-center 1s linear;
+}
+
+@keyframes left-center {
+   from {
+      left: -100%;
+   }
+
+   to {
+      left: 0%;
+   }
+
+}
+
+@keyframes right-center {
+   from {
+      right: -100%;
+   }
+
+   to {
+      right: 0%;
+   }
+}
+
+@keyframes left {
+   from {
+      left: -100%;
+   }
+
+   to {
+      left: 0%;
+   }
+}
+
+@keyframes right {
+   from {
+      right: -100%;
+   }
+
+   to {
+      right: 0%;
+   }
+}
