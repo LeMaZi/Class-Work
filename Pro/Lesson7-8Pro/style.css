@@ -375,6 +375,7 @@ a {
    flex-direction: row;
    justify-content: center;
    height: 400px;
+   margin-bottom: 15%;
 }
 
 .title {
@@ -388,7 +389,7 @@ a {
 }
 
 .form {
-   margin-top: 5%;
+   margin-top: 4%;
    background: #E5E5E5;
 }
 
@@ -397,6 +398,11 @@ a {
    height: 80px;
    border: #FFFFFF;
    margin-right: 30px;
+   font-family: 'Rosario';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   margin-top: 30px;
 
 }
 
@@ -404,16 +410,90 @@ a {
    width: 452px;
    height: 80px;
    border: #FFFFFF;
+   font-family: 'Rosario';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   margin-top: 30px;
 }
 
 #message {
    margin-top: 23px;
-   margin-bottom: 31px;
+   margin-bottom: 29px;
    width: 878px;
    height: 209px;
    border: #FFFFFF;
+   font-family: 'Rosario';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
 }
 
 .maps {
    margin-left: 3%;
 }
+
+/* Section Box-contact END */
+
+/* Section Box-menu-contact */
+
+.box-menu-contact {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-bottom: 2%;
+}
+
+.column-1, .column-2, .column-3 {
+   text-align: center;
+   width: 500px;
+}
+
+.fonts-text {
+   font-family: 'Rosario';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 37px;
+   color: #000000;
+}
+
+.menu-contact {
+   font-family: 'Rosario';
+   font-style: italic;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 37px;
+   color: #000000;
+}
+
+
+.graphic-menu {
+   font-family: 'Rosario';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 44px;
+   color: #000000;
+}
+.graphic-menu-1 {
+   font-family: 'Rosario';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 70px;
+   color: #000000;
+  
+   
+}
+.graphic {
+   font-family: 'Rosario';
+   font-style: italic;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 36px;
+   color: #000000;
+   
+}
+
+/* Section Box-menu-contact END*/
