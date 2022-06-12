@@ -6,6 +6,8 @@ body {
 
 }
 
+/*sextion HEADER */
+
 .header-box,
 li>a {
    text-decoration: none;
@@ -20,6 +22,7 @@ li>a {
    align-items: center;
    position: sticky;
    top: 0%;
+   z-index: 1;
 
 }
 
@@ -48,12 +51,18 @@ li>a {
 
 }
 
+/* Section HEADER END */
+
+/* Section Box-Img  */
+
 .box-img {
    display: flex;
    align-items: center;
    justify-content: space-evenly;
    overflow: auto;
-   margin-top: 71px;
+   margin-top: 3%;
+   margin-bottom: 3%;
+
 }
 
 .foto img {
@@ -75,14 +84,15 @@ li>a {
 }
 
 .left-center {
-   padding: 1%;
+   padding: 1.5%;
    position: relative;
-   animation: left-center 1s linear;
+   animation: left-center 1s cubic-bezier(.13, .87, 1, 1);
+
 }
 
 .right-center {
    position: relative;
-   animation: right-center 1s linear;
+   animation: right-center 1s cubic-bezier(.13, .87, 1, 1);
 }
 
 @keyframes left-center {
@@ -124,4 +134,286 @@ li>a {
    to {
       right: 0%;
    }
+}
+
+/* Section Box-Img END */
+
+/* Section box-services */
+
+.box-services {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.animation {
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   position: relative;
+}
+
+.animation div {
+
+   padding: 60px;
+}
+
+
+.img-services img {
+   width: 100%;
+
+}
+
+.fotoman {
+   min-width: 945px;
+}
+
+.img-services1,
+.img-services2,
+.img-services3,
+.img-services4 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Rosario';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 2.4rem;
+
+}
+
+.img-services1 {
+   animation: img-services1 10s infinite;
+
+}
+
+.img-services2 {
+   animation: img-services2 10s infinite;
+
+}
+
+.img-services3 {
+   animation: img-services3 10s infinite;
+
+}
+
+.img-services4 {
+   animation: img-services4 10s infinite;
+
+}
+
+@keyframes img-services1 {
+   25% {
+      transform: translateX(100%);
+   }
+
+   50% {
+      transform: translate(100%, 100%);
+   }
+
+   75% {
+      transform: translate(0%, 100%);
+   }
+}
+
+@keyframes img-services2 {
+   25% {
+      transform: translateY(100%);
+   }
+
+   50% {
+      transform: translate(-100%, 100%);
+   }
+
+   75% {
+      transform: translate(-100%, 0);
+   }
+}
+
+@keyframes img-services3 {
+   25% {
+      transform: translateY(-100%);
+   }
+
+   50% {
+      transform: translate(100%, -100%);
+   }
+
+   75% {
+      transform: translate(100%, 0);
+   }
+}
+
+@keyframes img-services4 {
+   25% {
+      transform: translateX(-100%);
+   }
+
+   50% {
+      transform: translate(-100%, -100%);
+   }
+
+   75% {
+      transform: translate(0, -100%);
+   }
+}
+
+/* Section box-services END */
+
+/* Section Team-Box */
+
+.text {
+   text-align: center;
+   font-family: 'Rosario';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 96px;
+   line-height: 300px;
+}
+
+a {
+   text-decoration: none;
+}
+
+.team-box {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   height: 677px;
+   margin-bottom: 3%;
+}
+
+.foto-team1 {
+   display: flex;
+   background-image: url(./img/Meredith.png);
+   background-repeat: no-repeat;
+   width: 392px;
+   margin-right: 50px;
+   border-radius: 40px;
+   box-sizing: border-box;
+
+}
+
+.foto-team2 {
+   display: flex;
+   background-image: url(./img/Jason.png);
+   background-repeat: no-repeat;
+   width: 392px;
+   margin-right: 50px;
+   border-radius: 40px;
+   box-sizing: border-box;
+
+}
+
+.foto-team3 {
+   display: flex;
+   background-image: url(./img/Ryan.png);
+   background-repeat: no-repeat;
+   width: 392px;
+   margin-right: 50px;
+   border-radius: 40px;
+   box-sizing: border-box;
+
+}
+
+.foto-team4 {
+   display: flex;
+   background-image: url(./img/James.png);
+   background-repeat: no-repeat;
+   width: 392px;
+   border-radius: 40px;
+   box-sizing: border-box;
+
+}
+
+.name {
+   display: none;
+   position: relative;
+   align-items: center;
+   text-align: center;
+   font-family: 'Volkhov';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 62px;
+   height: 154.57px;
+   width: 392px;
+   color: #FFFAFA;
+   background-color: rgba(163, 83, 10, 0.7);
+   border-radius: 0px 0px 40px 40px;
+   top: 77.1%;
+
+}
+
+.foto-team1:hover .name {
+   display: grid;
+
+}
+
+.foto-team2:hover .name {
+   display: grid;
+
+}
+
+.foto-team3:hover .name {
+   display: grid;
+
+}
+
+.foto-team4:hover .name {
+   display: grid;
+
+}
+
+/* Section Team-Box END */
+
+/* Section Box-Contact */
+
+.box-contact {
+   margin-top: 10%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   height: 400px;
+}
+
+.title {
+   font-family: 'Rosario';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 64px;
+   text-align: center;
+   width: 50%;
+
+}
+
+.form {
+   margin-top: 5%;
+   background: #E5E5E5;
+}
+
+#name-form {
+   width: 377px;
+   height: 80px;
+   border: #FFFFFF;
+   margin-right: 30px;
+
+}
+
+#email {
+   width: 452px;
+   height: 80px;
+   border: #FFFFFF;
+}
+
+#message {
+   margin-top: 23px;
+   margin-bottom: 31px;
+   width: 878px;
+   height: 209px;
+   border: #FFFFFF;
+}
+
+.maps {
+   margin-left: 3%;
 }
