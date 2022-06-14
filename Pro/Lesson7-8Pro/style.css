@@ -293,7 +293,7 @@ a {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   
+
 }
 
 .foto-team1,
@@ -302,14 +302,16 @@ a {
 .foto-team4 {
    display: flex;
    width: 100%;
-   
 }
+
 .one {
    padding: 2%;
 }
+
 .name {
    display: none;
 }
+
 .one:hover .name {
    display: grid;
    position: relative;
@@ -324,9 +326,9 @@ a {
    width: 100%;
    color: #FFFAFA;
    background-color: rgba(163, 83, 10, 0.7);
-   border-radius: 0px 0px 20px 20px;
-top: -20%;
-} 
+   border-radius: 0px 0px 23px 23px;
+   top: -20%;
+}
 
 
 /* Section Team-Box END */
