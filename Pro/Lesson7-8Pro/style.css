@@ -152,14 +152,16 @@ li>a {
    flex-direction: row;
    justify-content: center;
 }
+
 .animation {
    display: flex;
    flex-wrap: wrap;
    text-align: center;
    position: relative;
 }
+
 .animation>div>img {
-    width: 100%;
+   width: 100%;
 
 }
 
@@ -168,7 +170,7 @@ li>a {
 }
 
 .fotoman>img {
- width: 50vw;
+   width: 50vw;
 
 }
 
@@ -183,7 +185,7 @@ li>a {
    font-style: italic;
    font-weight: 700;
    font-size: 2.4rem;
-width: 25%;
+   width: 25%;
 }
 
 .img-services1 {
@@ -205,9 +207,15 @@ width: 25%;
    animation: img-services4 10s infinite;
 
 }
-.img-services1, .img-services2, .img-services3, .img-services4 {
-   width: 25%;
+
+.img-services1,
+.img-services2,
+.img-services3,
+.img-services4 {
+   width: 27%;
+   font-size: 1rem;
 }
+
 @keyframes img-services1 {
    25% {
       transform: translateX(100%);
