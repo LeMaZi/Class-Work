@@ -296,7 +296,9 @@ a {
    height: 677px;
    margin-bottom: 3%;
 }
-
+.foto-team1, .foto-team2, .foto-team3, .foto-team4 {
+   width: 25%;
+}
 .foto-team1 {
    display: flex;
    background-image: url(./img/Meredith.png);
@@ -469,7 +471,7 @@ a {
    font-family: 'Rosario';
    font-style: normal;
    font-weight: 700;
-   font-size: 30px;
+   font-size: 2rem;
    line-height: 37px;
    color: #000000;
 }
@@ -478,7 +480,7 @@ a {
    font-family: 'Rosario';
    font-style: italic;
    font-weight: 600;
-   font-size: 30px;
+   font-size: 1.5rem;
    line-height: 37px;
    color: #000000;
 }
@@ -488,7 +490,7 @@ a {
    font-family: 'Rosario';
    font-style: normal;
    font-weight: 700;
-   font-size: 36px;
+   font-size: 2rem;
    line-height: 44px;
    color: #000000;
 }
@@ -497,7 +499,7 @@ a {
    font-family: 'Rosario';
    font-style: normal;
    font-weight: 700;
-   font-size: 36px;
+   font-size: 2rem;
    line-height: 70px;
    color: #000000;
 
@@ -508,7 +510,7 @@ a {
    font-family: 'Rosario';
    font-style: italic;
    font-weight: 600;
-   font-size: 30px;
+   font-size: 2rem;
    line-height: 36px;
    color: #000000;
 
