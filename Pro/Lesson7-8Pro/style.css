@@ -65,11 +65,13 @@ li>a {
 
 }
 
-.foto img {
+.foto>img {
+   width: 100%;
    padding-bottom: 5%;
 }
 
 .left {
+   width: 85%;
    padding: 1.5%;
    position: relative;
    animation: left 2s linear;
@@ -77,6 +79,7 @@ li>a {
 }
 
 .right {
+   width: 85%;
    padding: 1.5%;
    position: relative;
    animation: right 2s linear;
@@ -84,6 +87,7 @@ li>a {
 }
 
 .left-center {
+   width: 100%;
    padding: 1.5%;
    position: relative;
    animation: left-center 1s cubic-bezier(.13, .87, 1, 1);
@@ -91,6 +95,8 @@ li>a {
 }
 
 .right-center {
+   width: 100%;
+   padding: 1.5%;
    position: relative;
    animation: right-center 1s cubic-bezier(.13, .87, 1, 1);
 }
@@ -145,27 +151,26 @@ li>a {
    flex-direction: row;
    justify-content: center;
 }
-
 .animation {
    display: flex;
    flex-wrap: wrap;
    text-align: center;
    position: relative;
 }
+.animation>div>img {
+   
+   width: 100%;
+   height: 100%;
+
+}
 
 .animation div {
-
    padding: 60px;
 }
 
-
-.img-services img {
-   width: 100%;
-
-}
-
-.fotoman {
-   min-width: 945px;
+.fotoman>div>img {
+ 
+   
 }
 
 .img-services1,
@@ -444,7 +449,9 @@ a {
    margin-bottom: 2%;
 }
 
-.column-1, .column-2, .column-3 {
+.column-1,
+.column-2,
+.column-3 {
    text-align: center;
    width: 500px;
 }
@@ -476,6 +483,7 @@ a {
    line-height: 44px;
    color: #000000;
 }
+
 .graphic-menu-1 {
    font-family: 'Rosario';
    font-style: normal;
@@ -483,9 +491,10 @@ a {
    font-size: 36px;
    line-height: 70px;
    color: #000000;
-  
-   
+
+
 }
+
 .graphic {
    font-family: 'Rosario';
    font-style: italic;
@@ -493,7 +502,7 @@ a {
    font-size: 30px;
    line-height: 36px;
    color: #000000;
-   
+
 }
 
 /* Section Box-menu-contact END*/
