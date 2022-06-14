@@ -404,13 +404,14 @@ a {
 }
 
 .form {
+   height: 115%;
    margin-top: 4%;
    background: #E5E5E5;
 }
 
 #name-form {
-   width: 40%;
-   height: 4%;
+   width: 35.5%;
+   height: 15%;
    border: #FFFFFF;
    margin-right: 30px;
    font-family: 'Rosario';
@@ -422,8 +423,8 @@ a {
 }
 
 #email {
-   width: 40%;
-   height: 4%;
+   width: 36.5%;
+   height: 15%;
    border: #FFFFFF;
    font-family: 'Rosario';
    font-style: normal;
@@ -435,8 +436,8 @@ a {
 #message {
    margin-top: 23px;
    margin-bottom: 29px;
-   width: 88.0%;
-   height: 50%;
+   width: 80%;
+   height: 40%;
    border: #FFFFFF;
    font-family: 'Rosario';
    font-style: normal;
