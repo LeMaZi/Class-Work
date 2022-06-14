@@ -390,7 +390,6 @@ a {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   height: 400px;
    margin-bottom: 15%;
 }
 
@@ -398,7 +397,7 @@ a {
    font-family: 'Rosario';
    font-style: italic;
    font-weight: 700;
-   font-size: 64px;
+   font-size: 2rem;
    text-align: center;
    width: 50%;
 
@@ -410,39 +409,39 @@ a {
 }
 
 #name-form {
-   width: 377px;
-   height: 80px;
+   width: 40%;
+   height: 4%;
    border: #FFFFFF;
    margin-right: 30px;
    font-family: 'Rosario';
    font-style: normal;
    font-weight: 700;
-   font-size: 36px;
+   font-size: 1.5rem;
    margin-top: 30px;
 
 }
 
 #email {
-   width: 452px;
-   height: 80px;
+   width: 40%;
+   height: 4%;
    border: #FFFFFF;
    font-family: 'Rosario';
    font-style: normal;
    font-weight: 700;
-   font-size: 36px;
+   font-size: 1.5rem;
    margin-top: 30px;
 }
 
 #message {
    margin-top: 23px;
    margin-bottom: 29px;
-   width: 878px;
-   height: 209px;
+   width: 88.0%;
+   height: 50%;
    border: #FFFFFF;
    font-family: 'Rosario';
    font-style: normal;
    font-weight: 700;
-   font-size: 36px;
+   font-size: 1.5rem;
 }
 
 .maps {
@@ -463,8 +462,9 @@ a {
 .column-1,
 .column-2,
 .column-3 {
+   width: 25%;
    text-align: center;
-   width: 500px;
+   margin-top: 6%;
 }
 
 .fonts-text {
